@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "open-spiel"
+version = "0.1.0"
+description = ""
+authors = ["David"]
+readme = "README.md"
+packages = [{include = "open_spiel"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
